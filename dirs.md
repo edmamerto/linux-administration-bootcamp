@@ -11,6 +11,7 @@ $ echo $VAR_NAME
 $PATH
 > - Controls the command search path
 > - Contains a list of directories that are separated by colon
+> - Tells your computer where to look for executable programs
 
 $PATH == "Controls the command search path"
 > What we mean by when you type in the command at the prompt and press enter, that command will be searched for in the directories
