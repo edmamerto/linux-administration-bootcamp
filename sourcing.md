@@ -28,7 +28,7 @@ $ !e
 $ ed_test.sh
 1234
 ```
-*they are not equal `1234 != 4321`* 
+*they are not equal `1234 != 4321`, this means it ran in a separate bash process* 
 
 Now let's try this 
 
@@ -55,4 +55,19 @@ to get the variable in your current context you can `source` the file
 ```
 $ source ed_test.sh
 > ed
+```
+Typically we source `.bashrc` to reload environment variables
+
+The following files are scripts that bash runs whenever. They're`initalization files`
+```
+/bin/bash
+       The bash executable
+/etc/profile
+       The systemwide initialization file, executed for login shells
+~/.bash_profile
+       The personal initialization file, executed for login shells
+~/.bashrc
+       The individual per-interactive-shell startup file
+~/.bash_logout
+       The individual login shell cleanup file, executed when a login shell exits
 ```
