@@ -43,7 +43,7 @@ echo $username
 ```
 Try
 ```
-$echo
+$ echo $username
 >
 ```
 Then try
