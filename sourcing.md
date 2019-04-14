@@ -71,3 +71,5 @@ The following files are scripts that bash runs whenever. They're`initalization f
 ~/.bash_logout
        The individual login shell cleanup file, executed when a login shell exits
 ```
+
+**IMPORTANT** if you are using a different shell i.e. `ZSH` put your vars in `~/.zhrc`
