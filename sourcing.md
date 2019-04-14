@@ -73,3 +73,7 @@ The following files are scripts that bash runs whenever. They're`initalization f
 ```
 
 **IMPORTANT** if you are using a different shell i.e. `ZSH` put your vars in `~/.zhrc`
+
+Example setup for `.bash_profile` `.bash_rc` and `.profile`
+
+See stackoverflow: https://stackoverflow.com/questions/902946/about-bash-profile-bashrc-and-where-should-alias-be-written-in
