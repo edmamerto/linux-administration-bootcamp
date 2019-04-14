@@ -1,4 +1,4 @@
-### Source and Fork your Scripts
+### Source 
 > This is a mini bootcamp
 
 `source` From wikipedia
