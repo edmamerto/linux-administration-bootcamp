@@ -1,5 +1,5 @@
 ## linux Administration Bootcamp
-> In this module we will setup a Chef Server 
+> learning Linux Administration
 
 Linux Distro
 > Flavors of Linux
