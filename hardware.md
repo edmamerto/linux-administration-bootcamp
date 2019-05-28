@@ -29,4 +29,11 @@ show statistics on the processor, RAM, and running processes
 ```
 $ top
 ```
+In windows if hardrives are in `\C:` `\B:` whatever in Linux hardrives are in found in 
+```
+/dev/sda
+/dev/sdb
+/dev/sdc
+```
+> note that it in the dev folder and named `sd[a-z]`
 
