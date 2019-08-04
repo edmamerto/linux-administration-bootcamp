@@ -33,7 +33,7 @@ $ echo $?
 1
 ```
 
-Notice this time, that we didn’t see any error messages. To break this down, we’re suppressing the error output (stderr) of the ls -0 command, redirect it to standard output (stdout), writing it to /dev/null thereby immediately discarding it. The >& symbol is an operator that copies the output of the first file descriptor (2) and redirects to the output of the second file descriptor (1).
+Notice this time, that we didn’t see any error messages. To break this down, we’re suppressing the error output (stderr) of the `ls -0` command, redirect it to standard output (stdout), writing it to /dev/null thereby immediately discarding it. The `>&` symbol is an operator that copies the output of the first file descriptor (2) and redirects to the output of the second file descriptor (1).
 
 Now let’s see what the numbers in `2>&1` represent by looking at this chart of File Descriptors.
 
